@@ -1,0 +1,32 @@
+.active {
+  background: #2563eb;
+}
+
+#form {
+  transform: translate(80%, 300px);
+}
+
+input,
+label,
+select,
+option {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+input,
+select,
+option {
+  border: 1px solid rgba(0, 0, 0, 0.803);
+  border-radius: 5px !important;
+  width: min(100%, 100%) !important;
+  padding: 3px !important;
+}
+
+#frm-add {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  /* justify-items: flex-end; */
+  align-items: center;
+  margin-block: 30px;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+body
+{
+    /* font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-weight: bold;
+    /* background-color: 	#232f3e */
+    /* background: ; */
+    /* background-image:url("./assets/Images/gamingbg.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+/* #image
+{
+    width: 250px;
+    border-radius: 10px;
+} */
+ ul li 
+ {
+  font-family: "Roboto", sans-serif;
+ }
+li:hover
+{
+    cursor: pointer;
+    color:#1d0dd4;
+    text-decoration: underline;
+}
+ol li
+{
+    cursor: none;
+}
+s{
+    color:red
+}
+
+.product-info:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgb(117, 115, 115), 0 0 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.ant-drawer-title{
+  font-family: "Roboto", sans-serif;
+   
+}
+
+span:hover
+{
+  opacity: 0.7;
+}
+.header
+{
+    background-color:  blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer
+{
+    	background:black
+      
+}
+.ant-drawer-content-wrapper
+{
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.feature-list:hover
+{
+    text-decoration: none;
+    color:white;
+    cursor: default;
+}
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+        
+    /* background-color: #f1f1f1; Optional: Add a background color */
+  }
+  
+  .marquee-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: scroll 15s linear infinite;
+  }
+  
+  .marquee-content img {
+    flex-shrink: 0;
+    margin: 0 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  
+@layer components {
+  .width {
+    width: min(100% - 4rem, 1300px);
+    margin-inline: auto;
+  }
+
+  .width-full {
+    width: min(100%, 100%);
+  }
+
+  .admin-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+}
+.product-div
+{
+  display: grid;
+  grid-template-columns: 300px 70rem
+}
+input:focus
+{
+  outline: none;
+}
+
+.border
+{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px; 
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
